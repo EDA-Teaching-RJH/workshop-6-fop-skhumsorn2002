@@ -10,11 +10,13 @@ for sample in sample_bay:
 
 new_findings = []
 
-new_sample_number = int(input("How many new finding: "))
+count = 0
 
-for i in range(new_sample_number):
-    finding_item = input(f"Enter item number {i+1} name: ").title()
+while count < 3:
+    finding_item = input(f"Enter item number {count+1} name: ").title()
     new_findings.append(finding_item)
+    count+=1
+
 
 print(new_findings)
 
