@@ -11,7 +11,7 @@ mission_log = {
 
 print(rover_status["Battery"])
 
-rover_status["Battery"] = 80
+rover_status["Battery"] = 85
 rover_status["Heater"] = "On"
 
 rover_status["Speed"] = 5
